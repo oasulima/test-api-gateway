@@ -1,0 +1,13 @@
+application:
+  host: localhost
+  port: 33006
+
+kafka:
+  bootstrap_servers: localhost:9094
+
+services:
+  locator: http://localhost:33002
+  fake_provider: http://localhost:33003
+  internal_inventory: http://localhost:33008
+  reporting: http://localhost:33005
+  order_book: http://localhost:33015

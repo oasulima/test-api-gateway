@@ -1,0 +1,11 @@
+application:
+  port: 8000
+
+kafka:
+  locator_quote_response_topic: local.locator_quote_response
+  locator_quote_request_topic: local.locator_quote_request
+  notification_topic: local.notification
+  provider_symbol_indo_topic: local.admin_provider_symbol_info
+  invalidate_cache_command_topic: local.invalidate_cache_command
+  internal_inventory_item_reporting_topic: local.reporting_internal_inventory_item
+  group_id: LocatorAdminUILocalRust

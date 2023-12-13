@@ -1,0 +1,12 @@
+application:
+  host: 0.0.0.0
+
+kafka:
+  bootstrap_servers: kafka:9092
+
+services:
+  locator: http://locator:33000
+  fake_provider: http://fake-provider-server:33000
+  internal_inventory: http://internal-inventory-provider:33000
+  reporting: http://reporting:33000
+  order_book: http://orderbook-provider:33000
